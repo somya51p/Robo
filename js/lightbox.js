@@ -3,14 +3,17 @@ let temp = new TimelineMax({paused:true});
 var exp = document.querySelector('.explore');
 var close = document.querySelector('.closebutton');
 
+
+
 temp
     .to('.image',1,{opacity:0})
     .set('.image',{css:{display:"none"}})
     .to('.text',1,{x:300})
+    .set('.barbutton',{css:{display:"none"}})
     .set('.gallery-preview',{css:{display:"none"}})
     .set('.gallery-original',{css:{opacity:0}})
     .set('.gallery-original',{css:{display:"grid"}})
-    .to('.gallery-original',1.5,{opacity:1})
+    .to('.gallery-original',0.6,{opacity:1})
 
 exp.onclick = function() {
   temp.play();

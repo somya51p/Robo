@@ -17,7 +17,7 @@ var k9 = document.querySelector('.but9');
 tempp.addLabel("coress");
 
 tempp
-    .set('.clubt',{css:{display:"none"}},"coress")
+    .set('.clubt',{css:{display:"none"}})
     .to('.mynewnavbar',1,{x:0 ,ease: Sine.easeOut},"coress")
     .to('.webbody',0.2,{opacity:0.6},"coress")
 
@@ -104,7 +104,7 @@ window.addEventListener('scroll',()=>{
 
   console.log(document.documentElement.scrollTop);
 
-  if (document.documentElement.scrollTop > 4500 && document.documentElement.scrollTop<5200 ) {
+  if (document.documentElement.scrollTop > 4600 && document.documentElement.scrollTop<5250 ) {
     btemp.play();
 }
 else {

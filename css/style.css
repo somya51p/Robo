@@ -1,5 +1,5 @@
 /* Base */
-
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Fredericka+the+Great|Orbitron|Rye|Ultra|Vast+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Gudea|IBM+Plex+Serif|Josefin+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -25,8 +25,19 @@ a.nav-link.active{
   font-weight: bolder;
 }
 
+ .nav-link:hover{
+  font-weight: bolder;
+}
+
+#mynewnav{
+  padding-top: 0 !important;
+  top:0 !important;
+  margin-top: 0 !important;
+}
+
 #navbarNav .nav-item{
   padding-left: 5px;
+
 }
 
 #mynewnav{
@@ -44,11 +55,11 @@ a.nav-link.active{
 }
 
 
-@media(max-width:968px){
+@media(max-width:600px){
   #mynewnav{
-    width:25vw;
-    margin-left: 0;
-    padding-left: 0;
+    width:12vw;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
     left:0;
   }
 }
@@ -62,11 +73,12 @@ a.nav-link.active{
 
 .navclose{
   color:black;
-  left:0 !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  margin-top: 1px;
-  font-size: 55px;
+  margin: 0 ;
+  margin-left: 130px !important;
+  margin-top: 0px !important;
+  padding-top: 0 !important;
+  top:0 !important;
+  font-size: 35px;
   opacity: 0.6;
 }
 
@@ -99,7 +111,7 @@ a.nav-link.active{
 
 .clubt,.barbutton{
   font-size: 35px;
-  font-family: 'Rye', cursive;
+  font-family: 'Roboto Slab', serif;
   z-index: 100;
   color:white;
 }
@@ -126,7 +138,7 @@ a.nav-link.active{
 }
 
 .but1{
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 .butt a{
@@ -148,11 +160,18 @@ a.nav-link.active{
 .container .project{
 
   border-radius: 50%;
-  height:420px;
-  width:350px;
+  height:410px;
+  width:330px;
+  box-shadow: 0px 5px 15px white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 
 
 }
+
+
 
 .carocontent{
   position:absolute;
@@ -171,16 +190,16 @@ a.nav-link.active{
 
 .caroimage{
   position:absolute;
-  height:420px;
-  width:350px;
+  height:410px;
+  width:330px;
   padding:0 !important;
   margin:0 !important;
   overflow: hidden;
 }
 
 .caroimage img{
-  height:420px;
-  width:350px;
+  height:410px;
+  width:330px;
   border-radius: 50%;
   z-index:250;
   opacity: 0.5;
@@ -283,7 +302,7 @@ a.nav-link.active{
 
   }
   #social-links{
-    opacity: 1;
+    opacity: 1 !important;
   }
 
   .aboutcards .container{
@@ -308,7 +327,8 @@ a.nav-link.active{
     overflow: hidden;
     border-radius: 20px;
     transition: 0.6s;
-    box-shadow: 0 5px 20px palegreen;
+    box-shadow: 0 4px 10px palegreen;
+    border:none !important;
   }
 
   .aboutcards .container .card .img-box img{
@@ -405,7 +425,7 @@ a.nav-link.active{
 
   .aboutcards .container .card:hover {
     transform: translateY(-30px);
-    box-shadow: 0 20px 20px palegreen;
+    box-shadow: 0 10px 20px palegreen;
   }
 
 /*about us section*/
@@ -496,17 +516,19 @@ a.nav-link.active{
   #gallery-section .closesection button{
     position: absolute;
     padding:5px;
-    top:10;
+    top:5;
     left:0;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-left: 15px;
-    background-color: yellow;
-    border:1px solid yellow;
-    border-radius: 25px;
-    width:70px;
+    background: none;
+    border:none;
+    border-radius: 50%;
+    width:40px;
     height:35px;
-    box-shadow: 0px 10px 20px royalblue;
+    box-shadow: 0px 10px 20px white;
     z-index: 3;
+    color:black;
+    font-size: 1.4rem;
   }
 
   #gallery-section .gallery-preview{
@@ -557,6 +579,19 @@ a.nav-link.active{
     width:50vw;
   }
 
+  #gallery-section .mySlides{
+
+      background-image: url('../images/1234.jpg');
+      background-size: contain;
+      background-repeat: repeat;
+
+    }
+
+    button{
+      outline:none !important;
+      cursor: pointer;
+    }
+
   #gallery-section .mySlides img{
     height: 80vh;
     width: 70vw;
@@ -565,20 +600,16 @@ a.nav-link.active{
     overflow: hidden;
     margin-left:180px;
     box-shadow: 3px 30px 20px dimgrey;
-    border-radius: 15%;
+    border-radius: 10px;
     margin-top: 25px;
+    opacity:1 !important;
   }
 
   #gallery-section .texthead{
     justify-content: center;
   }
 
-  #gallery-section .mySlides{
 
-      background-image: url('../images/4125.jpg');
-      background-size: auto;
-
-    }
 
     .gallery-original{
       z-index: 360;
@@ -617,7 +648,16 @@ a.nav-link.active{
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    background-color: rgba(204, 204,204, 0.8);
   }
+
+#gallery-section .prev{
+  margin-left: 180px;
+}
+
+#gallery-section .next {
+  margin-right: 16.7%;
+}
 
   /* Position the "next button" to the right */
   #gallery-section .next {
@@ -628,7 +668,7 @@ a.nav-link.active{
   /* On hover, add a black background color with a little bit see-through */
   #gallery-section .prev:hover,
   #gallery-section .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(204, 204,204, 0.8);
   }
 
 
