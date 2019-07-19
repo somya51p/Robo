@@ -8,7 +8,7 @@ var close = document.querySelector('.closebutton');
 temp
     .to('.image',1,{opacity:0})
     .set('.image',{css:{display:"none"}})
-    .to('.text',1,{x:300})
+    .to('.text',1,{x:275})
     .set('.barbutton',{css:{display:"none"}})
     .set('.gallery-preview',{css:{display:"none"}})
     .set('.gallery-original',{css:{opacity:0}})
