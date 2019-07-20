@@ -316,22 +316,40 @@ a.nav-link.active{
   @media only screen and (max-width: 900px) {
 
     #project-section .container {
-      width:85vw; !important;
+      width:83vw; !important;
       margin-right: 25px !important;
       margin-left: 28px !important;
       overflow: hidden;
       }
 
+      .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 1;
+      }
+
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 5px !important;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 8px !important;
+      }
+
       .container .project{
 
         border-radius: 50%;
-        height:54vh;
-        width:38vw;
+        height:50vh;
+        width:35vw;
         box-shadow: 0px 5px 15px white;
         margin-top: 5vh;
         margin-bottom: 5vh;
-        margin-left: 4vw;
-        margin-right:4vw;
+        margin-left: 3.5vw;
+        margin-right:3vw;
 
 
       }
@@ -339,32 +357,33 @@ a.nav-link.active{
       .carocontent{
         position:absolute;
 
-        height:45vh;
+        height:35vh;
         box-sizing: border-box;
         justify-content: center;
         text-align: center;
-        margin-top: 35px;
+        margin-top: 15px;
         font-weight: bolder;
         font-size: 0.7rem;
+        overflow : hidden;
 
 
       }
       .carocontent h3{
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
       }
 
       .caroimage{
         position:absolute;
-        height:54vh;
-        width:38vw;
+        height:50vh;
+        width:35vw;
         padding:0 !important;
         margin:0 !important;
         overflow: hidden !important;
       }
 
       .caroimage img{
-        height:54vh;
-        width:38vw;
+        height:50vh;
+        width:35vw;
         border-radius: 50%;
         z-index:250;
         opacity: 0.5;
@@ -377,7 +396,8 @@ a.nav-link.active{
       height:auto;
       display: grid;
       grid-template-columns: 1fr;
-      margin-left: 15px !important;
+    
+      margin-right: 8vw !important;
       margin-top: 30px;
       margin-bottom: 50px;
     }
