@@ -316,10 +316,58 @@ a.nav-link.active{
   @media only screen and (max-width: 900px) {
 
     #project-section .container {
-      width:380px !important;
+      width:80vw; !important;
       margin-right: 25px !important;
       margin-left: 28px !important;
       overflow: hidden;
+      }
+
+      .container .project{
+
+        border-radius: 50%;
+        height:54vh;
+        width:34vw;
+        box-shadow: 0px 5px 15px white;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 4vw;
+        margin-right:4vw;
+
+
+      }
+
+      .carocontent{
+        position:absolute;
+
+        height:45vh;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        margin-top: 35px;
+        font-weight: bolder;
+        font-size: 0.7rem;
+
+
+      }
+      .carocontent h3{
+        font-size: 1.1rem !important;
+      }
+
+      .caroimage{
+        position:absolute;
+        height:54vh;
+        width:34vw;
+        padding:0 !important;
+        margin:0 !important;
+        overflow: hidden !important;
+      }
+
+      .caroimage img{
+        height:54vh;
+        width:34vw;
+        border-radius: 50%;
+        z-index:250;
+        opacity: 0.5;
       }
 
     .aboutcards .container{
@@ -406,6 +454,7 @@ a.nav-link.active{
       left:0 !important;
       display:flex !important;
       height:100% !important;
+      overflow-y: scroll !important;
     }
 
     #navbarNav .nav-item{
