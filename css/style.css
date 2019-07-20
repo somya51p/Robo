@@ -316,7 +316,7 @@ a.nav-link.active{
   @media only screen and (max-width: 900px) {
 
     #project-section .container {
-      width:80vw; !important;
+      width:85vw; !important;
       margin-right: 25px !important;
       margin-left: 28px !important;
       overflow: hidden;
@@ -326,7 +326,7 @@ a.nav-link.active{
 
         border-radius: 50%;
         height:54vh;
-        width:34vw;
+        width:38vw;
         box-shadow: 0px 5px 15px white;
         margin-top: 5vh;
         margin-bottom: 5vh;
@@ -356,7 +356,7 @@ a.nav-link.active{
       .caroimage{
         position:absolute;
         height:54vh;
-        width:34vw;
+        width:38vw;
         padding:0 !important;
         margin:0 !important;
         overflow: hidden !important;
@@ -364,7 +364,7 @@ a.nav-link.active{
 
       .caroimage img{
         height:54vh;
-        width:34vw;
+        width:38vw;
         border-radius: 50%;
         z-index:250;
         opacity: 0.5;
@@ -382,10 +382,19 @@ a.nav-link.active{
       margin-bottom: 50px;
     }
 
-    .ml15 {
-      margin-left: 10px !important;
+    .word {
+      padding-left: 5px !important;
+      margin-left: 5px !important;
       margin-top: 20px !important;
-      font-size: 30px;
+      font-size: 30px !important;
+      font-family: 'Gudea', sans-serif;
+    }
+
+    .ml15 {
+      padding-left: 5px !important;
+      margin-left: 5px !important;
+      margin-top: 20px !important;
+      font-size: 30px !important;
       font-family: 'Gudea', sans-serif;
     }
 
