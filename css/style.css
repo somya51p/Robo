@@ -316,7 +316,7 @@ a.nav-link.active{
   @media only screen and (max-width: 900px) {
 
     #project-section .container {
-      width:83vw; !important;
+      width:93vw; !important;
       margin-right: 25px !important;
       margin-left: 28px !important;
       overflow: hidden;
@@ -396,7 +396,7 @@ a.nav-link.active{
       height:auto;
       display: grid;
       grid-template-columns: 1fr;
-    
+
       margin-right: 8vw !important;
       margin-top: 30px;
       margin-bottom: 50px;
