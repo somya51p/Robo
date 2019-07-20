@@ -315,12 +315,18 @@ a.nav-link.active{
 
   @media only screen and (max-width: 900px) {
 
-    #project-section .container {
-      width:93vw; !important;
-      margin-right: 25px !important;
-      margin-left: 28px !important;
+    #project-section {
+      width:96vw !important;
+      margin-right: 2vw !important;
+      margin-left: 2vw !important;
       overflow: hidden;
       }
+      .container {
+        width:96vw !important;
+        margin-right: 2vw !important;
+        margin-left: 2vw !important;
+        overflow: hidden;
+        }
 
       .icon-bar {
         position: fixed;
@@ -349,19 +355,19 @@ a.nav-link.active{
         margin-top: 5vh;
         margin-bottom: 5vh;
         margin-left: 3.5vw;
-        margin-right:3vw;
+        margin-right:4vw;
 
 
       }
 
       .carocontent{
         position:absolute;
-
+        padding: 2.5vh;
         height:35vh;
         box-sizing: border-box;
         justify-content: center;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 5px;
         font-weight: bolder;
         font-size: 0.7rem;
         overflow : hidden;
