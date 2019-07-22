@@ -550,6 +550,7 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden;
+      width: 100vw;
     }
 
     #schedule-section table th{
@@ -680,7 +681,7 @@ a.nav-link.active{
     .ml15 {
 
       margin-left: 0px !important;
-      margin-top: 20px !important;
+      margin-top: 14px !important;
       font-size: 28px !important;
       font-family: 'Gudea', sans-serif;
       left:0 !important;
