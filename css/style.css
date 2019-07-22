@@ -313,7 +313,32 @@ a.nav-link.active{
     margin-bottom: 50px;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 900px) and (min-width: 550px) {
+
+    body{
+      overflow-x: hidden;
+    }
+
+    #schedule-section table th{
+      font-size: 0.8rem !important;
+      width:45px !important;
+      padding:10px !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    #schedule-section table td{
+      font-size: 0.8rem !important;
+      padding:5px !important;
+      width:45px !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    #schedule-section table {
+      width:280px !important;
+      margin-left: 70px !important;
+    }
 
     #project-section {
       width:96vw !important;
@@ -523,6 +548,32 @@ a.nav-link.active{
 
   @media only screen and (max-width: 550px) {
 
+    body{
+      overflow-x: hidden;
+    }
+
+    #schedule-section table th{
+      font-size: 0.8rem !important;
+      width:45px !important;
+      padding:10px !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    #schedule-section table td{
+      font-size: 0.8rem !important;
+      padding:5px !important;
+      width:45px !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    #schedule-section table {
+      width:280px !important;
+      margin-left: 70px !important;
+    }
+
+
     #project-section {
       width:96vw !important;
       margin-right: 2vw !important;
@@ -617,18 +668,23 @@ a.nav-link.active{
     }
 
     .word {
-      margin-left: 5px !important;
-      margin-top: 20px !important;
-      font-size: 30px !important;
+      margin-left: 0px !important;
+      margin-top: 10px !important;
+      font-size: 25px !important;
       font-family: 'Gudea', sans-serif;
+      padding: 0px !important;
+      left:0 !important;
+
     }
 
     .ml15 {
-    
-      margin-left: 5px !important;
+
+      margin-left: 0px !important;
       margin-top: 20px !important;
       font-size: 30px !important;
       font-family: 'Gudea', sans-serif;
+      left:0 !important;
+      margin-right: 55px !important;
     }
 
     .word121{
@@ -725,6 +781,73 @@ a.nav-link.active{
     .barbutton{
       font-size: 20px !important;
     }
+
+    .aboutcards .container .card{
+      width:140px !important;
+      height:180px !important;
+      position: relative;
+      background: #000;
+      overflow: hidden;
+      border-radius: 20px;
+      transition: 0.6s;
+      box-shadow: 0 4px 10px palegreen;
+      border:none !important;
+      margin-bottom: 10px !important;
+    }
+
+    .aboutcards .container .card .content{
+      position: absolute;
+      width: 100%;
+      height: 70% !important;
+      bottom: -100%;
+      padding: 2px !important;
+      box-sizing: border-box;
+      text-align: center;
+      transition: 0.5s;
+      margin:0;
+    }
+
+    .aboutcards .container .card .content h2{
+      margin:0 0 10px;
+      padding: 0;
+      padding-top: 15px !important;
+      color: #fff;
+      font-size: 10px !important;
+    }
+
+
+    .aboutcards .container .card .content h2 span{
+
+      color: #ffeb3b;
+      font-size: 9px !important;
+      padding: 0 !important;
+      margin: 0 !important
+    }
+
+    .aboutcards .container .card .content p{
+
+      font-size: 7.5px !important;
+      color:darkturquoise;
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    .aboutcards .container .card .content ul{
+      display:flex;
+      margin-top: 0 !important;
+      margin:4px 0 0 !important;
+      padding:0;
+      align-items:center;
+      justify-content: center;
+    }
+  .aboutcards .container .card .content ul li a{
+      color:#fff;
+      margin-top: 0 !important;
+      padding: 0 4px !important;
+      font-size: 9px !important;
+      transition: 0.5s;
+    }
+
 
   }
 
