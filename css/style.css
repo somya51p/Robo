@@ -571,7 +571,7 @@ a.nav-link.active{
 
     #schedule-section table {
       width:280px !important;
-      margin-left: 70px !important;
+      margin-left: 50px !important;
     }
 
 
@@ -708,6 +708,22 @@ a.nav-link.active{
       text-align: justify;
       font-size: 8px !important;
       overflow : auto !important;
+      }
+
+      .gallery-preview .contentgall p{
+        font-size: 0.7rem !important;
+      }
+
+      .gallery-preview .contentgall h2{
+        font-size: 1rem !important;
+      }
+
+      .gallery-preview .contentgall button{
+        font-size: 0.8rem !important;
+        width:80px !important;
+        height:28px !important;
+        padding: 0 !important;
+
       }
 
     #gallery-section .mySlides img{
