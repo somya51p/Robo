@@ -31,10 +31,11 @@ body {
   overflow:hidden !important;
 }
 .preloadernew img{
-  height:54vh;
+  height:50vh;
   width:37vw;
   margin-left: 30vw;
-  margin-top: 8vh;
+  margin-top:12vh;
+  padding-bottom: 10vh;
 }
 
 
@@ -341,10 +342,12 @@ a.nav-link.active{
     }
 
     .preloadernew img{
-      height:54vh;
-      width:49vw;
-      margin-left: 30vw;
-      margin-top: 8vh;
+      height:45vh !important;
+      width:70vw !important;
+      text-align: center;
+      margin:auto;
+
+      margin-top: 5vh;
     }
 
     #schedule-section table th{
@@ -582,11 +585,14 @@ a.nav-link.active{
     }
 
     .preloadernew img{
-      height:54vh;
-      width:49vw;
-      margin-left: 30vw;
-      margin-top: 8vh;
+      height:35vh !important;
+      width:60vw !important;
+      text-align: center;
+      margin-left: 20vw;
+      margin-top: 15vh;
+      padding-bottom: 2vh !important;
     }
+
 
     #schedule-section table th{
       font-size: 0.8rem !important;
