@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/aos.css">
   <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pre.css">
 
 <!--my own icon dwln-->
 <link rel="stylesheet" href="my-icons-collection/font/flaticon.css">
@@ -34,7 +35,31 @@
 </head>
 
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" onload="preFunc()">
+
+
+  <div class="preloadernew">
+
+    <img src="images\LOGO.png" alt=""><br>
+    <div class="anim">
+
+
+    <div id="ot-load-circle">
+  <div class="ot-loader">
+    <div class="ot-loader">
+      <div class="ot-loader">
+        <div class="ot-loader">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+  </div>
 
   <div class="site-wrap">
 
@@ -1208,6 +1233,10 @@ crossorigin="anonymous"></script>
 
 </script>
 
+<script src="js/pre.js">
+
+</script>
+
 <script>
 
 $(document).ready(function(){
@@ -1215,6 +1244,10 @@ $(document).ready(function(){
     maxTilt: 10,
   })
 })
+
+
+
+
 
 </script>
 

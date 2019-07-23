@@ -418,7 +418,7 @@ $(document).ready(function(){
 });
 
 /*animated video text of home pg*/
-anime.timeline({loop: false})
+anime.timeline({loop: true})
   .add({
     targets: '.ml15 .word',
     scale: [14,1],
@@ -430,8 +430,8 @@ anime.timeline({loop: false})
     }
   }).add({
     targets: '.ml15',
-    opacity: 0,
+    opacity: [1,0],
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 5000
+    delay: 3000
   });

@@ -20,6 +20,7 @@ tempp
     .set('.clubt',{css:{display:"none"}})
     .to('.mynewnavbar',1,{x:0 ,ease: Sine.easeOut},"coress")
     .to('.webbody',0.2,{opacity:0.6},"coress")
+    .set('#social-links',{css:{opacity:0}})
 
 
 
@@ -73,10 +74,12 @@ k9.onclick = function() {
 }
 
 let ntemp = new TimelineMax({paused:true});
+ntemp.addLabel("social");
 
 ntemp
-      .to('.clubt',1,{x:500})
-      .set('.clubt',{css:{display:"none"}})
+      .to('.clubt',1,{x:500},"social")
+      .set('.clubt',{css:{display:"none"}},"social")
+      .set('#social-links',{css:{opacity:1}},"social")
 
 
 window.addEventListener('scroll',()=>{
@@ -111,3 +114,14 @@ else {
   btemp.reverse();
 }
 });
+
+
+
+let fg = new TimelineMax({paused:true});
+
+fg
+  .set('.preloadernew',{css:{display:"none"}})
+
+function preFunc(){
+  fg.play();
+}
