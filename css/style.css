@@ -569,12 +569,15 @@ a.nav-link.active{
   @media only screen and (max-width: 550px) {
 
     body{
-      overflow-x: hidden;
-      width: 100vw;
+      overflow-x: hidden !important;
+      width: 100vw !important;
     }
 
-    .preloadernew{
-      display: none;
+    .preloadernew img{
+      height:54vh;
+      width:49vw;
+      margin-left: 30vw;
+      margin-top: 8vh;
     }
 
     #schedule-section table th{
@@ -595,7 +598,7 @@ a.nav-link.active{
 
     #schedule-section table {
       width:280px !important;
-      margin-left: 50px !important;
+      margin-left: 20px !important;
     }
 
 
