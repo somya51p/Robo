@@ -573,11 +573,8 @@ a.nav-link.active{
       width: 100vw;
     }
 
-    .preloadernew img{
-      height:54vh;
-      width:57vw;
-      margin-left: 20vw;
-      margin-top: 8vh;
+    .preloadernew{
+      display: none;
     }
 
     #schedule-section table th{
