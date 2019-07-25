@@ -579,7 +579,16 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden !important;
-      width: 273px !important;
+      width:100vw !important;
+      zoom: 0 !important;
+    }
+
+    .para{
+      width:75vw;
+      margin-right: 10vw;
+      margin-left: 10vw;
+      text-align: center;
+      font-size: 0.9rem;
     }
 
     .preloadernew img{
