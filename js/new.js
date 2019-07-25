@@ -74,12 +74,16 @@ k9.onclick = function() {
 }
 
 let ntemp = new TimelineMax({paused:true});
-ntemp.addLabel("social");
+let stemp = new TimelineMax({paused:true});
+
+
+stemp
+    .to('.icon-bar',0.5,{x:-100})
+
 
 ntemp
-      .to('.clubt',1,{x:500},"social")
-      .set('.clubt',{css:{display:"none"}},"social")
-      .set('#social-links',{css:{opacity:1}},"social")
+      .to('.clubt',1,{x:500})
+      .set('.clubt',{css:{display:"none"}})
 
 
 window.addEventListener('scroll',()=>{
@@ -88,9 +92,12 @@ window.addEventListener('scroll',()=>{
 
   if (document.documentElement.scrollTop > 550 ) {
     ntemp.play();
+    stemp.reverse();
+
 }
 else {
   ntemp.reverse();
+  stemp.play();
 }
 });
 
