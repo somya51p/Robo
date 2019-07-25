@@ -316,7 +316,7 @@ a.nav-link.active{
     margin-left: 90px;
 
   }
-  
+
 
   .aboutcards .container{
     position: relative;
@@ -336,7 +336,7 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden !important;
-      width: 100vw !important;
+      width: 100% !important;
     }
 
     .preloadernew img{
@@ -579,15 +579,14 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden !important;
-      width: 100vw !important;
-      position: absolute;
+      width: 100% !important;
     }
 
     .preloadernew img{
       height:25vh !important;
       width:80vw !important;
       text-align: center;
-      margin-left: 20vw;
+      margin-left: 15vw;
       margin-top: 15vh;
       padding-bottom: 2vh !important;
     }
