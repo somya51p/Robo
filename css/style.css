@@ -579,14 +579,14 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden !important;
-      width: 100% !important;
+      width: 540px !important;
     }
 
     .preloadernew img{
       height:25vh !important;
       width:80vw !important;
       text-align: center;
-      margin-left: 15vw;
+      margin-left: 10vw !important;
       margin-top: 15vh;
       padding-bottom: 2vh !important;
     }
