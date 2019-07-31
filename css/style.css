@@ -542,8 +542,9 @@ a.nav-link.active{
       padding-left: 10px !important;
       left:0 !important;
       display:flex !important;
-      height:100% !important;
-      overflow-y: scroll !important;
+      height:100vh !important;
+      position: fixed !important;
+      overflow: hidden !important;
     }
 
     #navbarNav .nav-item{
@@ -579,7 +580,8 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden !important;
-      width:100vw !important;
+      width:100% !important;
+      zoom: 0 !important;
     }
 
     .para{
@@ -816,7 +818,9 @@ a.nav-link.active{
       left:0 !important;
       display:flex !important;
       height:100% !important;
-      overflow-y: scroll !important;
+      overflow:hidden !important;
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
     }
 
     #navbarNav .nav-item{
@@ -825,7 +829,6 @@ a.nav-link.active{
       right:0 !important;
       opacity: 1 !important;
       padding-bottom: 8px !important;
-      font-size: 10px !important;
     }
 
     #navbarNav .nav-item button a{
