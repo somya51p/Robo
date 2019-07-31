@@ -336,7 +336,7 @@ a.nav-link.active{
 
     body{
       overflow-x: hidden !important;
-      width: 100% !important;
+      width: 100vw !important;
     }
 
     .preloadernew img{
@@ -580,7 +580,6 @@ a.nav-link.active{
     body{
       overflow-x: hidden !important;
       width:100vw !important;
-      zoom: 0 !important;
     }
 
     .para{
@@ -826,7 +825,11 @@ a.nav-link.active{
       right:0 !important;
       opacity: 1 !important;
       padding-bottom: 8px !important;
-      font-size: 15px !important;
+      font-size: 10px !important;
+    }
+
+    #navbarNav .nav-item button a{
+      font-size: 14px !important;
     }
 
     .navclose{
