@@ -747,6 +747,7 @@ a.nav-link.active{
 
     .vidback .fullscreen-video-wrap img{
       display: grid;
+      width:120vw !important;
     }
 
     #aboutus-section  .about1234{
@@ -773,6 +774,10 @@ a.nav-link.active{
         height:28px !important;
         padding: 0 !important;
 
+      }
+
+      #gallery-section{
+        width:120vw !important;
       }
 
     #gallery-section .mySlides img{
