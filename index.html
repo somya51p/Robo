@@ -30,6 +30,10 @@
 <link rel="stylesheet" href="my-icons-collection/font/flaticon.css">
 
 <!--animated video text of home pg-->
+<script
+src="https://code.jquery.com/jquery-1.12.4.js"
+integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 </head>
@@ -74,7 +78,8 @@
 
 
 <header class="site-navbar js-sticky-header site-navbar-target" >
-  <span><button class="barbutton" type="button" name="button"> <i class="fa fa-bars" aria-hidden="true"></i> </button> <h2 class="navbar-brand clubt"  >  ROBOTICS | IIITDMJ</h2></span>
+  <span class="navcolor"><button class="barbutton" type="button" name="button"> <i class="fa fa-bars" aria-hidden="true"></i> </button><h1 class="navButton-text">Home</h1></span>
+  <button type="button" class="upevents" name="button">Upcoming Events</button>
 
   <nav class="navbar navbar-expand-lg navbar-light flex-column mynewnavbar" id="mynewnav">
 
@@ -124,6 +129,164 @@
 
     </header>
 
+    <div class="upcoming">
+
+      <button type="button" class="upclose" name="button">CLOSE</button>
+
+      <div class="blank">
+
+        <div class="upc" align="center">
+
+          <div class="upcir">
+
+          </div>
+
+          <div class="">
+            <h3>Upcoming Events</h3>
+          </div>
+
+        </div>
+
+        <div class="pas" align="center">
+
+          <div class="pascir">
+
+          </div>
+
+          <div class="">
+            <h3>Past Events</h3>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hea">
+
+        <h1>Upcoming Events</h1>
+      </div>
+
+      <div class="future">
+
+
+
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom4.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>RoboSoccer</h3>
+            <p>To be held in September 2019.</p>
+          </div>
+
+        </div>
+
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom6.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>Line Following Robot</h3>
+            <p>To be held in November 2019.</p>
+          </div>
+
+        </div>
+
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom7.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>RoboWar</h3>
+            <p>To be held in February 2020.</p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="hea">
+
+        <h1>Past Events</h1>
+      </div>
+
+
+
+      <div class="past">
+
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom3.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>RoboWar</h3>
+            <p>Was held in March 2019.</p>
+          </div>
+
+
+
+        </div>
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom5.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>RoboThon</h3>
+            <p>Was held in March 2019.</p>
+          </div>
+
+
+        </div>
+
+        <div class="evecard">
+          <div class="eveimage">
+            <img src="images/robocop.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>RoboCop</h3>
+            <p>Was held in February 2019.</p>
+          </div>
+          </div>
+
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom2.jpg" alt="">
+          </div>
+          <div class="evecontent">
+            <h3>Line Following Robot</h3>
+            <p>Was held in November 2018.</p>
+          </div>
+
+        </div>
+
+
+        <div class="evecard">
+
+          <div class="eveimage">
+            <img src="images/upcom1.jpg" alt="">
+          </div>
+          <div class="evecontent" align="center">
+            <h3>RoboSoccer</h3>
+            <p>Was held in September 2018.</p>
+          </div>
+
+
+      </div>
+
+
+
+
+      </div>
+
+    </div>
+
 
 
     <div class="webbody vidback" id="home-section" >
@@ -161,7 +324,7 @@
             <div class="counter d-flex align-items-start" data-aos="fade-up" data-aos-delay="">
               <div class="icon-wrap"><span class="flaticon-roboto-logo"></span></div>
               <div class="counter-text">
-                  <h2 class="timer count-title count-number" data-to="2108" data-speed="2500"></h2>
+                  <h2 class="timer count-title count-number" data-to="442" data-speed="2500"></h2>
                 <span>Members</span>
               </div>
             </div>
@@ -171,7 +334,7 @@
     <div class="counter d-flex align-items-start" data-aos="fade-up" data-aos-delay="100">
       <div class="icon-wrap"><span class="flaticon-browser"></span></div>
       <div class="counter-text">
-          <h2 class="timer count-title count-number" data-to="200" data-speed="3000"></h2>
+          <h2 class="timer count-title count-number" data-to="328" data-speed="3000"></h2>
         <span>Daily Visiotrs</span>
       </div>
     </div>
@@ -181,7 +344,7 @@
     <div class="counter d-flex align-items-start" data-aos="fade-up" data-aos-delay="200">
       <div class="icon-wrap"><span class="flaticon-roboto-logo"></span></div>
       <div class="counter-text">
-          <h2 class="timer count-title count-number" data-to="18" data-speed="3000"></h2>
+          <h2 class="timer count-title count-number" data-to="47" data-speed="3000"></h2>
         <span>Total Events</span>
       </div>
     </div>
@@ -193,7 +356,7 @@
     <div class="counter d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
       <div class="icon-wrap"><span class="flaticon-award"></span></div>
       <div class="counter-text">
-          <h2 class="timer count-title count-number" data-to="47" data-speed="3000"></h2>
+          <h2 class="timer count-title count-number" data-to="76" data-speed="3000"></h2>
         <span>Achievements</span>
       </div>
     </div>
@@ -267,7 +430,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Hexapod</h3>
 
-                <p>A hexapod robot is a mechanical vehicle that walks on six legs. Since a robot can be statically stable on three or more legs, a hexapod robot has a great deal of flexibility in how it can move. If legs become disabled, the robot may still be able to walk.</p>
+                <p>It was built using 3D printed parts.Each<br> of  it's leg has three Servo motors, head and <br> tail also has a Servo motor.It is able to <br> Crawl in different terrains.</p>
               </div>
             </div>
 
@@ -280,8 +443,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Dancing Robot</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>    It was made for teaching purpose. <br>   Different dance patterns were observed.</p>
               </div>
             </div>
 
@@ -294,8 +456,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>PID Controller</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>A robot that follows a line against a contrasting background by implementing Proportional Integral Derivative (PID) algorithm. It can traverse immensely complex networks that otherwise would be a nightmare if manually done.</p>
               </div>
             </div>
 
@@ -308,22 +469,20 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Maze Solver</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>Using PID Controlled motion and Path planners it scans the whole arena and then it finds the shortest path using a particular algorithm.</p>
               </div>
             </div>
 
             <div class="project">
               <div class="caroimage">
-                <img src="images/battlebots.jpg" alt="">
+                <img src="images/badmin.jpg" alt="">
               </div>
 
               <div class="carocontent" >
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
-                <h3>Battle Bots</h3>
+                <h3>Badminton Bot</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>Badminton is a dynamic sport and <br> therefore only advanced concepts and technologies are in order to realize a badminton robot. Based on many projects with industrial partners.</p>
               </div>
             </div>
 
@@ -336,8 +495,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Pick and Place</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>It was built using 3D printed parts and controlled by Servo motors. It was able to pick a tennis ball.</p>
               </div>
             </div>
 
@@ -352,8 +510,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Snake Robot</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>We have Fabricated a snake type robot <br> with 12 Servo motors and implemented sine and cosine waves to see Serpentine and Rectilinear motion.</p>
               </div>
             </div>
 
@@ -394,8 +551,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Survelliance Robot</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-                  voluptatibus animi.</p>
+                <p>Built a robot car with an On-board pan-tilt camera, which sends live video feeds to the webpage and the bot can be controlled using the web interface.</p>
               </div>
             </div>
 
@@ -408,7 +564,7 @@
                   <span class="flaticon-stationary-bike display-3 text-white mb-4 d-inline-block"></span>
                 <h3>Self Balancing Robot</h3>
 
-                <p>A hexapod robot is a mechanical vehicle that walks on six legs. Since a robot can be statically stable on three or more legs.</p>
+                <p>It was made using 3D printed parts, <br> Stepper motors, ATmega IC and MPU6050. The main concept behind the self balancing bot was in the code. </p>
               </div>
             </div>
 
@@ -455,280 +611,7 @@
                           </tr>
 
                   </table>
-        <!--FOR FEST OR OTHER EVENT REGISTRATION-->
-        <!--<div class="row">
-          <div class="col-12">
-            <ul class="nav nav-tabs mb-5 border-bottom-0 justify-content-center tab-list-custom" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday"
-                  aria-selected="true">Monday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday"
-                  aria-selected="false">Tuesday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Wednesday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Thursday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Friday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Sunday</a>
-              </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
-                <table class="table table-bordered table-custom table-striped ">
 
-                  <tbody>
-                    <tr>
-                      <td>BOT1</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>ayusha</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>BOT2</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>aman dhurve</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>BOT3</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>dherya pateriya</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>BOT4</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>heet</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>BOT5</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>aman singhal</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-
-
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
-<table class="table table-bordered table-custom table-striped ">
-
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-
-
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-<table class="table table-bordered table-custom table-striped ">
-
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-
-
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
-<table class="table table-bordered table-custom table-striped ">
-
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-
-
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
-<table class="table table-bordered table-custom table-striped ">
-
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-
-
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
-<table class="table table-bordered table-custom table-striped ">
-
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-
-
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      -->
       </div>
     </div>
 
@@ -749,42 +632,50 @@
 
       <a class="work-thumb">
         <div class="work-text">
-          <h3>Robowar...</h3>
-          <span class="category">bot</span>
+          <h3>LFR at Inter IIIT</h3>
+          <p class="category">Completed the task by implementing Proportional Integral Derivative Algorithm at Inter IIIT Fest.</p>
         </div>
-        <img src="images/editrobowar.jpg" alt="Image" class="img-fluid">
+        <img src="images/Lfrinter.jpg" alt="Image" class="img-fluid">
       </a>
 
       <a class="work-thumb" >
         <div class="work-text">
-          <h3>Line Follwoing Bot</h3>
-          <span class="category">Cardio Vascular</span>
+          <h3>Success at E-YANTRA</h3>
+          <p class="category">Completed all the tasks at E-YANTRA.</p>
         </div>
-        <img src="images/editlfr.jpg" alt="Image" class="img-fluid">
+        <img src="images/eyantra.jpg" alt="Image" class="img-fluid">
       </a>
 
       <a class="work-thumb">
         <div class="work-text">
-          <h3>Robosoccer</h3>
-          <span class="category">Lose Weight</span>
+          <h3>RoboWar at IIIT Delhi</h3>
+          <p class="category">We were the SemiFinalists of the national <br> Robowar event organized at IIIT Delhi.</p>
         </div>
-        <img src="images/editrobosoccer.jpg" alt="Image" class="img-fluid">
+        <img src="images/robosemi.jpg" alt="Image" class="img-fluid">
       </a>
 
       <a class="work-thumb" >
         <div class="work-text">
           <h3>LFR at IIIT Delhi</h3>
-          <span class="category">bb</span>
+          <span class="category">In ESYA-18 our team participated in the LFR <br> event and reached the SemiFinals leaving behind <br>  77 other teams.</span>
         </div>
         <img src="images/iiitdelhi.jpeg" alt="Image" class="img-fluid">
       </a>
 
       <a class="work-thumb" >
         <div class="work-text">
-          <h3>RoboCop</h3>
-          <span class="category">Fitness</span>
+          <h3>Robowar at Hitkarni College</h3>
+          <p class="category">We Won the Robowar at Hitkarni college of Engineering Jabalpur.</p>
         </div>
-        <img src="images/editrobocop.jpg" alt="Image" class="img-fluid">
+        <img src="images/robowarfinal.jpg" alt="Image" class="img-fluid">
+      </a>
+
+      <a class="work-thumb" >
+        <div class="work-text">
+          <h3>TechFest IIT Bombay 2018</h3>
+          <span class="category">Our team had participated in operation Rahat which was a Quadcopter event.</span>
+        </div>
+        <img src="images/rahat.jpeg" alt="Image" class="img-fluid">
       </a>
     </div>
 
@@ -830,7 +721,7 @@
 
                 <li><a href="http://faculty.iiitdmj.ac.in/faculty/tanush"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
 
-                <li><a href=""><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
+                <li><a href="" ><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
 
               </ul>
 
@@ -854,7 +745,7 @@
 
                 <li><a href="https://www.linkedin.com/in/aman-singhal-4a4498164"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
 
-                <li><a href="tel:8930700102"><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
+                <li><a href="tel:8930700102" data-toggle="popover" title="Contact on: 8930700102" ><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
               </ul>
 
               </div>
@@ -878,7 +769,7 @@
 
                   <li><a href="https://www.linkedin.com/in/ayush-mishra-a71688127/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
 
-                  <li><a href="tel:8529458915"><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
+                  <li><a href="tel:8529458915" data-toggle="popover" title="Contact on: 8529458915"><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
               </ul>
 
               </div>
@@ -901,7 +792,7 @@
 
                 <li><a href="https://www.linkedin.com/in/ayush-gupta-a375ab171"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
 
-                <li><a href="tel:+919519161620"><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
+                <li><a href="tel:+919519161620" data-toggle="popover" title="Contact on: 9519161620"><i class="fas fa-phone"  aria-hidden="true"></i></a></li>
               </ul>
 
               </div>
@@ -1195,6 +1086,34 @@
     <a href="https://www.youtube.com/watch?v=VLLp8qVKeTo" class="youtube"><i class="fab fa-youtube"></i></a>
   </div>
 
+  <div class="webbody container" id="sponsorslider">
+    <h2>Our  Sponsors</h2>
+     <section class="webbody customer-logos slider">
+        <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+        <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+     </section>
+  </div>
+
+  <div class="footer webbody">
+
+    <div class="line">
+
+    </div>
+
+    <div align="center" class="cright">
+      <p><i class="fa fa-copyright copicon" aria-hidden="true">  </i><span class="devtext">Made by</span> <button class="devname" > <a class="anc" href="https://www.facebook.com/ayusha.singh"> Ayusha Singh </a></button> <span class="devtext">and</span> <button class="devname" > <a class="anc" href="https://www.facebook.com/heet.gupta">Heet Gupta </a> </button></p>
+    </div>
+
+  </div>
+
+
 
   <!-- .site-wrap -->
 
@@ -1258,20 +1177,10 @@ $(document).ready(function(){
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-<div class="webbody container" id="sponsorslider">
-  <h2>Our  Sponsors</h2>
-   <section class="customer-logos slider">
-      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-      <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
-      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
-   </section>
-</div>
+
+
+
+
 </body>
 
 </html>

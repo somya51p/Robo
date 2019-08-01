@@ -22,9 +22,6 @@ tempp
     .to('.webbody',0.2,{opacity:0.6},"coress")
     .set('#social-links',{css:{opacity:0}})
 
-
-
-
 kempp
     .to('.mynewnavbar',1.8,{x:-400 ,ease: Sine.easeOut})
 
@@ -106,29 +103,31 @@ else {
 let btemp = new TimelineMax({paused:true});
 
 btemp
-      .set('.barbutton',{css:{color:"black"}})
-      .set('.barbutton',{css:{opacity:0.6}})
+      .set('.upevents',{css:{opacity:1}})
 
 
-window.addEventListener('scroll',()=>{
 
-  console.log(document.documentElement.scrollTop);
 
-  if (document.documentElement.scrollTop > 4600 && document.documentElement.scrollTop<5250 ) {
-    btemp.play();
+const utemp = new TimelineMax({paused:true});
+var ubutt = document.querySelector('.upevents');
+var cbut = document.querySelector('.upclose');
+
+utemp
+    .set('.webbody',{css:{display:"none"}})
+    .set('.navcolor',{css:{display:"none"}})
+    .set('.upevents',{css:{display:"none"}})
+    .set('.upcoming',{css:{display:"grid"}})
+    .set('.upcoming',{css:{opacity:0}})
+    .to('.upcoming',0.8,{ease: Sine.easeOut,opacity:1})
+    .set('.upclose',{css:{display:"grid"}})
+
+
+
+
+ubutt.onclick = function() {
+  utemp.play();
 }
-else {
-  btemp.reverse();
-}
-});
 
-
-
-let fg = new TimelineMax({paused:true});
-
-fg
-  .set('.preloadernew',{css:{display:"none"}})
-
-function preFunc(){
-  fg.play();
+cbut.onclick = function() {
+  utemp.reverse();
 }

@@ -1,3 +1,30 @@
+
+let fg = new TimelineMax({paused:true});
+
+fg
+  .set('.preloadernew',{css:{display:"none"}})
+
+function preFunc(){
+  fg.play();
+}
+
+/* new.js */
+
+
+
+
+
+
+
+/* new.js End*/
+
+
+
+
+
+
+
+
 AOS.init({
 	duration: 800,
 	easing: 'slide',
