@@ -2460,7 +2460,7 @@ span.flaticon-award:before {
 }
 
 .upcoming{
-  background: rgb(220,220,220);
+  background: rgba(220,220,220,1);
   overflow-y: scroll;
 }
 
@@ -2656,7 +2656,7 @@ span.flaticon-award:before {
   .upevents{
     font-size: 0.6rem;
     width:100px;
-    margin-left: 75vw;
+    margin-left: 67vw;
   }
 
 }
