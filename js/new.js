@@ -1,6 +1,8 @@
 let tempp = new TimelineMax({paused:true});
 let kempp = new TimelineMax({paused:true});
 
+
+
 var clc = document.querySelector('.barbutton');
 var cclc = document.querySelector('.navclose');
 var k1 = document.querySelector('.but1');
