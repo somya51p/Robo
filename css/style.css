@@ -64,7 +64,7 @@ body {
   cursor: pointer;
   position: fixed;
   border-radius: 5px;
-  margin-left: 85vw;
+  margin-left: 86vw;
   margin-top: 25px;
 }
 
@@ -2609,8 +2609,16 @@ span.flaticon-award:before {
 
   .preloadernew{
       position: fixed !important;
-      height:100vh;
+      height:1000%;
       overflow:hidden !important;
+  }
+
+  .evecard{
+    height:25vh;
+  }
+
+  .eveimage img{
+    height:13vh;
   }
 
   .evecontent h3{
@@ -2662,7 +2670,7 @@ span.flaticon-award:before {
   .upevents{
     font-size: 0.6rem;
     width:100px;
-    margin-left: 67vw;
+    margin-left: 60vw !important;
   }
 
 }
