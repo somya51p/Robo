@@ -1,10 +1,4 @@
-$(document).ready(function() {
+var box = $("#changetext");
+var tl = new TimelineMax()
 
-  var controller = new ScrollMagic.Controller();
-  var scene = new ScrollMagic.Scene({
-    triggerElement : '.aboutcards'
-  })
-  .setClassToggle('.aboutcards','fade-in')
-  .addTo(controller);
-
-});
+t1.set(box,{text:"asjdbf"})

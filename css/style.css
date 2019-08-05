@@ -592,7 +592,7 @@ a.nav-link.active{
       display:flex !important;
       height:100vh !important;
       position: fixed !important;
-      overflow: hidden !important;
+      /*overflow: hidden !important;*/
     }
 
     #navbarNav .nav-item{
@@ -625,6 +625,10 @@ a.nav-link.active{
   }
 
   @media only screen and (max-width: 550px) {
+
+    html{
+      overflow-x: hidden !important;
+    }
 
     body{
       overflow-x: hidden !important;
@@ -2482,7 +2486,7 @@ span.flaticon-award:before {
 .navButton-text{
   font-size: 1.3rem;
   text-align: center;
-  margin-top: 3px;
+  margin-top: 0;
   margin-left: 24px;
   position: absolute;
 }
