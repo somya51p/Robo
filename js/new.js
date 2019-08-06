@@ -21,7 +21,7 @@ tempp.addLabel("coress");
 tempp
     .set('.clubt',{css:{display:"none"}})
     .to('.mynewnavbar',1,{x:0 ,ease: Sine.easeOut},"coress")
-    .to('.webbody',0.2,{opacity:0.6},"coress")
+    .to('.webbody',0.2,{opacity:0.4},"coress")
     .set('#social-links',{css:{opacity:0}})
 
 kempp
@@ -87,7 +87,6 @@ ntemp
 
 window.addEventListener('scroll',()=>{
 
-  console.log(document.documentElement.scrollTop);
 
   if (document.documentElement.scrollTop > 550 ) {
     ntemp.play();

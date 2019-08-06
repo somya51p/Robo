@@ -55,8 +55,12 @@ body {
   background: grey;
 }
 
+.navButton-text{
+  font-family: 'Rajdhani', sans-serif;
+}
+
 .upevents{
-  padding:10px;
+  padding:7px;
   background: rgba(201,206,50,0.8 );
   color:white;
   border:none;
@@ -64,7 +68,7 @@ body {
   cursor: pointer;
   position: fixed;
   border-radius: 5px;
-  margin-left: 86vw;
+  margin-left: 84vw;
   margin-top: 25px;
 }
 
@@ -2179,7 +2183,7 @@ span.flaticon-award:before {
 }
 
 #contact-section.site-section.bg-dark{
-  height: 800px;
+  height: 700px;
 }
 
 
@@ -2627,7 +2631,7 @@ span.flaticon-award:before {
 
   .evecontent h3{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 13px;
     color:black;
     font-size: 0.8rem;
     font-family: 'Rajdhani', sans-serif;
