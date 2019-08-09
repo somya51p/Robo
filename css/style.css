@@ -106,6 +106,10 @@ a.nav-link.active{
 
 }
 
+.butt .nav-link{
+  font-family: 'Rajdhani', sans-serif !important;
+}
+
 #mynewnav{
    background-color: white !important;
    float: left;
@@ -218,13 +222,40 @@ a.nav-link.active{
   border-radius: 50%;
   height:410px;
   width:330px;
-  box-shadow: 0px 5px 15px white;
+
   margin-top: 5vh;
   margin-bottom: 5vh;
   margin-left: 1vw;
   margin-right:2vw;
+  transition: 0.8s !important;
+
+}
+
+.container .project:hover{
+  zoom: 1.08;
 
 
+}
+
+.icon-bar{
+  transform: translateX(-48px) !important;
+  transition: 1s;
+}
+
+.section-title121{
+  padding-bottom: 16px;
+}
+
+.about1234 p{
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+  justify-content: center !important;
+  word-wrap: break-word;
+  font-size: 28px !important;
+}
+
+.icon-bar:hover{
+  transform: translateX(0px) !important;
 }
 
 
@@ -435,9 +466,9 @@ a.nav-link.active{
       .icon-bar {
         position: fixed;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+        transform: translateY(-40%);
         z-index: 1;
       }
 
@@ -455,7 +486,7 @@ a.nav-link.active{
         border-radius: 50%;
         height:50vh;
         width:37vw;
-        box-shadow: 0px 5px 15px white;
+
         margin-top: 5vh;
         margin-bottom: 5vh;
         margin-left: 3.5vw;
@@ -608,6 +639,8 @@ a.nav-link.active{
       font-size: 15px !important;
     }
 
+
+
     .navclose{
       font-size: 19px !important;
       margin-top: 18px !important;
@@ -696,9 +729,9 @@ a.nav-link.active{
       .icon-bar {
         position: fixed;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+        transform: translateY(-40%);
         z-index: 1;
       }
 
@@ -859,8 +892,14 @@ a.nav-link.active{
 
       .aboutus{
         height:auto !important;
-      }
 
+      }
+      .about1234{
+        border:0.1px solid black !important;
+        padding:15px;
+        box-shadow:5px 5px 25px white !important;
+        border-radius: 20px;
+      }
       .counter-text h2{
           margin-top: 13px !important;
       }
@@ -915,7 +954,7 @@ a.nav-link.active{
         font-size: 1.1rem !important;
       }
 
-      .abstractback,.backkk,.about1234{
+      .abstractback,.backkk{
         background: none !important;
         background-color: black !important;
         border:none !important;
@@ -1024,7 +1063,7 @@ a.nav-link.active{
       overflow: hidden;
       border-radius: 20px;
       transition: 0.6s;
-      box-shadow: 0 4px 10px palegreen;
+      box-shadow: 0 1px 10px palegreen;
       border:none !important;
       margin-bottom: 10px !important;
     }
@@ -1093,7 +1132,7 @@ a.nav-link.active{
     overflow: hidden;
     border-radius: 20px;
     transition: 0.6s;
-    box-shadow: 0 4px 10px palegreen;
+    box-shadow: 0 1px 10px palegreen;
     border:none !important;
   }
 
@@ -1233,8 +1272,8 @@ a.nav-link.active{
 
 #aboutus-section .backkk{
   margin:20px;
-  height: 80vh;
-  width:90vw;
+  height: auto;
+  width:100% !important;
   background-color: rgba(240, 255, 255, 0.548);
   -webkit-box-shadow: 0px 0px 17px -6px rgba(105, 105, 105, 0.67);
   -moz-box-shadow: 0px 0px 17px -6px rgba(105, 105, 105, 0.67);
@@ -2301,10 +2340,10 @@ span.flaticon-award:before {
 .icon-bar {
   position: fixed;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
+  -webkit-transform: translateY(-70%);
+  -ms-transform: translateY(-70%);
+  transform: translateY(-70%);
+  z-index: 99;
 }
 
 .icon-bar a {
@@ -2577,7 +2616,7 @@ span.flaticon-award:before {
 }
 
 .upcoming{
-  background: rgba(220,220,220,1);
+  background: rgba(248,245,243,1);
   overflow-y: scroll;
 }
 
@@ -2593,7 +2632,7 @@ span.flaticon-award:before {
   margin-top: 25px;
   background: skyblue;
   color:white;
-  box-shadow: 2px 2px 6px grey;
+  box-shadow: 1px 1px 6px grey;
 }
 
 .navButton-text{
@@ -2625,7 +2664,7 @@ span.flaticon-award:before {
   color:steelblue;
   margin-left: 2vw;
   opacity: 0.9;
-  text-shadow: 0px 3px 10px grey;
+  text-shadow: 0px 3px 10px rgba(248,245,243,1);
   margin-top: 20px;
 }
 
@@ -2791,3 +2830,84 @@ span.flaticon-award:before {
   }
 
 }
+
+.evecard{
+  box-shadow: 0px 5px 10px rgb(220,220,220);
+}
+
+.section-title121{
+  font-size: 3rem !important;
+  color:darkorange !important;
+  font-weight: 600;
+  opacity:0.75;
+}
+
+.aboutus{
+  background:none !important;
+  background-color: black !important;
+}
+
+.aboutus{
+  height:auto !important;
+
+}
+.about1234{
+  border:0.1px solid black !important;
+  padding:15px;
+  width:90vw !important;
+
+}
+.counter-text h2{
+    margin-top: 13px !important;
+}
+#aboutus-section {
+  margin:0 !important;
+  padding:0!important;
+}
+#aboutus-section  .about1234{
+  padding:14px !important;
+  color:White;
+  justify-content: center;
+  text-align: justify;
+  font-size: 20px !important;
+  background: none !important;
+  line-height:39px !important;
+  box-shadow: 0px 0px 0px black !important;
+    background-color: black !important;
+    border:none !important;
+    height:auto !important;
+    border-radius: 0 !important;
+    font-weight: 200;
+
+    width:90vw !important;
+  }
+
+  .backkk {
+    padding:14px !important;
+    color:White;
+    justify-content: center;
+    text-align: justify;
+    font-size: 30px !important;
+    background: none !important;
+    line-height:39px !important;
+    box-shadow: 0px 0px 0px black !important;
+      background-color: black !important;
+      border:none !important;
+      height:auto !important;
+      border-radius: 0 !important;
+      font-weight: 200;
+      margin:40px !important;
+      padding:50px !important;
+      width:100% !important;
+      overflow: visible !important;
+    }
+
+  .backkk,.aboutus{
+
+    background-color: black !important;
+    border:none !important;
+    height:auto !important;
+    margin:30px !important;
+    padding:20px !important;
+    width:100% !important;
+  }
