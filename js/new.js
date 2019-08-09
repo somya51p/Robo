@@ -23,6 +23,7 @@ tempp
     .to('.mynewnavbar',1,{x:0 ,ease: Sine.easeOut},"coress")
     .to('.webbody',0.2,{opacity:0.4},"coress")
     .set('#social-links',{css:{opacity:0}})
+    .set('body',{css:{overflow:"hidden"}})
 
 kempp
     .to('.mynewnavbar',1.8,{x:-400 ,ease: Sine.easeOut})

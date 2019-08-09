@@ -808,11 +808,118 @@ a.nav-link.active{
     #aboutus-section  .about1234{
       padding:14px !important;
       color:wheat;
-      line-height: 5vh !important;
       justify-content: center;
       text-align: justify;
-      font-size: 8px !important;
-      overflow : auto !important;
+      font-size: 10px !important;
+      background: none !important;
+      line-height:14px !important;
+      box-shadow: 0px 0px 0px black !important;
+        background-color: black !important;
+        border:none !important;
+        height:auto !important;
+      }
+
+      .abtvid,.abstractback{
+        display:none;
+      }
+
+      .backk{
+        height:0px !important;
+        border:none !important;
+        height:auto !important;
+
+      }
+
+      #aboutiitr{
+        height:auto !important;
+        margin-top: 15px !important;
+        margin-bottom: 25px !important;
+      }
+
+      .timer{
+        font-size: 0.5rem !important;
+      }
+
+      .flaticon-roboto-logo::before,.flaticon-browser::before,.flaticon-award::before{
+        font-size: 30px !important;
+      }
+
+      .section-1{
+        display:flex !important;
+        margin:0 !important;
+        width:100vw !important;
+      }
+      .col-sm-3{
+        width:90px !important;
+      }
+
+      .space{
+        display:none;
+      }
+
+      .aboutus{
+        height:auto !important;
+      }
+
+      .counter-text h2{
+          margin-top: 13px !important;
+      }
+
+      .galleryy{
+        height:60vh !important;
+      }
+
+      .galleryy .image img{
+        height:60vh !important;
+      }
+
+      .gallery-original{
+        height:60vh !important;
+      }
+
+      .mySlides img{
+        height:50vh !important;
+        padding-bottom: 15px !important;
+      }
+
+      .mySlides {
+        height:50vh !important;
+        padding-bottom: 15px !important;
+      }
+
+      .containergall{
+        height:60vh !important;
+      }
+
+      #gallery-section .mySlides{
+
+          background-image: none !important;
+          background-size: cover !important;
+          background-repeat: no-repeat !important;
+        }
+
+      .counter-text span{
+        margin-top: 3px !important;
+        font-size: 0.5rem !important;
+        word-spacing: 2px !important;
+      }
+      .icon-wrap{
+        padding:0 !important;
+        margin:0 !important;
+      }
+
+
+      .section-title121{
+        color:white !important;
+        font-weight: bolder !important;
+        font-size: 1.1rem !important;
+      }
+
+      .abstractback,.backkk,.about1234{
+        background: none !important;
+        background-color: black !important;
+        border:none !important;
+        height:auto !important;
       }
 
       .gallery-preview .contentgall p{
@@ -1089,7 +1196,9 @@ a.nav-link.active{
 
 /*about us section*/
 .section-1 {
-  padding: 50px 0px 50px 0px;
+  padding: 40px 0px 40px 0px ;
+
+
 }
 
 .aboutus{
@@ -1179,13 +1288,13 @@ a.nav-link.active{
     top:5;
     left:0;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 8px;
     background: none;
     border:none;
     border-radius: 50%;
     width:40px;
     height:35px;
-    box-shadow: 0px 10px 20px white;
+
     z-index: 3;
     color:black;
     font-size: 1.4rem;
