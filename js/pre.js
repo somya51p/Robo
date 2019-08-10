@@ -51,7 +51,7 @@ const scene2 = new ScrollMagic.Scene({
 
 const scene3 = new ScrollMagic.Scene({
     trigger:"#schedule-section",
-    offset:2250,
+    offset:2320,
     duration:50,
     reverse:true,
     triggerHook:0.5,
@@ -62,7 +62,7 @@ const scene3 = new ScrollMagic.Scene({
 
 const scene4 = new ScrollMagic.Scene({
     trigger:"#achievement-section",
-    offset:2940,
+    offset:3060,
     duration:50,
     reverse:true,
     triggerHook:0.5,
@@ -73,7 +73,7 @@ const scene4 = new ScrollMagic.Scene({
 
 const scene6 = new ScrollMagic.Scene({
     trigger:"#ourteam-section",
-    offset:3800,
+    offset:3900,
     duration:50,
     reverse:true,
     triggerHook:0.5,
@@ -84,7 +84,7 @@ const scene6 = new ScrollMagic.Scene({
 
 const scene7 = new ScrollMagic.Scene({
     trigger:"#gallery-section",
-    offset:4500,
+    offset:4650,
     duration:50,
     reverse:true,
     triggerHook:0.5,
@@ -95,7 +95,7 @@ const scene7 = new ScrollMagic.Scene({
 
 const scene8 = new ScrollMagic.Scene({
     trigger:"#contact-section",
-    offset:5200,
+    offset:5300,
     duration:50,
     reverse:true,
     triggerHook:0.5,

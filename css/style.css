@@ -75,18 +75,18 @@ body {
 .preloadernew{
   height: 100vh;
   width: 100%;
-  background:black;
+  background:radial-gradient(#c40f0f,#6e0707);
   position: fixed;
   pointer-events:none;
   z-index:999999;
   overflow:hidden !important;
 }
 .preloadernew img{
-  height:50vh;
-  width:37vw;
-  margin-left: 30vw;
+  height:100vh;
+  width:100vw;
+  /*margin-left: 30vw;
   margin-top:12vh;
-  padding-bottom: 10vh;
+  padding-bottom: 10vh;*/
 }
 
 
@@ -238,7 +238,7 @@ a.nav-link.active{
 }
 
 .icon-bar{
-  transform: translateX(-48px) !important;
+  transform: translateX(-3.5vw) !important;
   transition: 1s;
 }
 
@@ -255,7 +255,7 @@ a.nav-link.active{
 }
 
 .icon-bar:hover{
-  transform: translateX(0px) !important;
+  transform: translateX(0vw) !important;
 }
 
 
@@ -583,7 +583,7 @@ a.nav-link.active{
       overflow : auto !important;
       }
 
-    #gallery-section .mySlides img{
+    #gallery-section .mySlides img,#gallery-section .mySlides video{
       height: 80vh;
       width: 70vw;
       margin:0 !important;
@@ -894,11 +894,18 @@ a.nav-link.active{
         height:auto !important;
 
       }
+
+      .about1234 p{
+        font-size: 10px !important;
+        line-height: 15px !important;
+      }
+
       .about1234{
         border:0.1px solid black !important;
         padding:15px;
         box-shadow:5px 5px 25px white !important;
         border-radius: 20px;
+        font-size: 10px !important;
       }
       .counter-text h2{
           margin-top: 13px !important;
@@ -916,7 +923,7 @@ a.nav-link.active{
         height:60vh !important;
       }
 
-      .mySlides img{
+      .mySlides img,.mySlides video{
         height:50vh !important;
         padding-bottom: 15px !important;
       }
@@ -959,6 +966,7 @@ a.nav-link.active{
         background-color: black !important;
         border:none !important;
         height:auto !important;
+        font-size: 10px !important;
       }
 
       .gallery-preview .contentgall p{
@@ -977,7 +985,7 @@ a.nav-link.active{
 
       }
 
-    #gallery-section .mySlides img{
+    #gallery-section .mySlides img,#gallery-section .mySlides video{
       height: 80vh;
       width: 70vw;
       margin:0 !important;
@@ -1400,7 +1408,7 @@ a.nav-link.active{
       cursor: pointer;
     }
 
-  #gallery-section .mySlides img{
+  #gallery-section .mySlides img, #gallery-section .mySlides video{
     height: 80vh;
     width: 70vw;
     margin:20px;
@@ -1409,7 +1417,7 @@ a.nav-link.active{
     margin-left:180px;
     box-shadow: 3px 30px 20px dimgrey;
     border-radius: 10px;
-    margin-top: 25px;
+    margin-top:25px;
     opacity:1 !important;
   }
 
@@ -2829,6 +2837,22 @@ span.flaticon-award:before {
     margin-left: 63vw !important;
   }
 
+  .preloadernew img{
+
+    height:100vh !important;
+    width:600px !important;
+    padding:0 !important;
+    margin-top: 0 !important;
+    transform: translateX(-150px);
+    border:none !important;
+    outline:none;
+  }
+
+  .preloadernew{
+    background: radial-gradient(#ad0303,#6e0707);
+  }
+
+
 }
 
 .evecard{
@@ -2910,4 +2934,24 @@ span.flaticon-award:before {
     margin:30px !important;
     padding:20px !important;
     width:100% !important;
+  }
+
+  .evecard .evecontent{
+    transition: 1s;
+
+  }
+
+
+.future .evecard .evecontent:hover{
+    background-color: #62da62;
+    color:white;
+    margin :0;
+    padding:1px;
+  }
+
+.past .evecard .evecontent:hover{
+    background-color: rgba(255,0,0,0.85);
+    color:white;
+    margin :0;
+    padding:1px;
   }

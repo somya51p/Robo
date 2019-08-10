@@ -2,6 +2,7 @@
 let fg = new TimelineMax({paused:true});
 
 fg
+  .to('.preloadernew',1.5,{opacity:1})
   .set('.preloadernew',{css:{display:"none"}})
 
 function preFunc(){
