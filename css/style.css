@@ -850,6 +850,7 @@ a.nav-link.active{
         background-color: black !important;
         border:none !important;
         height:auto !important;
+        margin-left: 0px !important;
       }
 
       .abtvid,.abstractback{
@@ -2852,6 +2853,12 @@ span.flaticon-award:before {
     background: radial-gradient(#ad0303,#6e0707);
   }
 
+  #contact-section{
+    height:auto !important;
+  }
+
+
+
 
 }
 
@@ -2931,7 +2938,7 @@ span.flaticon-award:before {
     background-color: black !important;
     border:none !important;
     height:auto !important;
-    margin:30px !important;
+    margin:20px !important;
     padding:20px !important;
     width:100% !important;
   }
