@@ -27,7 +27,7 @@ tempp
     .set('body',{css:{overflow:"hidden"}})
 
 kempp
-    .to('.mynewnavbar',1.8,{x:-400 ,ease: Sine.easeOut})
+    .to('.mynewnavbar',1.8,{x:-1000 ,ease: Sine.easeOut})
 
 clc.onclick = function() {
   tempp.play();

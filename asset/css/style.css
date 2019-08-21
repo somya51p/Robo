@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Fredericka+the+Great|Orbitron|Rye|Ultra|Vast+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Gudea|IBM+Plex+Serif|Josefin+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   line-height: 1.7;
   color: white;
@@ -208,7 +209,7 @@ a.nav-link.active{
 }
 
 #mynewnav{
-  background-image: url('../bbb.JPG');
+  background-image: url('/images/bbb.JPG');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -231,11 +232,7 @@ a.nav-link.active{
 
 }
 
-.container .project:hover{
-  zoom: 1.08;
 
-
-}
 
 .icon-bar{
   transform: translateX(-3.5vw) !important;
@@ -393,24 +390,11 @@ a.nav-link.active{
     font-family:'open Sans',sans-serif !important;
     overflow-x: hidden !important;
     width:100%;
-    margin-left: 90px;
+
 
   }
 
 
-  .aboutcards .container{
-    position: relative;
-    width: 90%;
-    margin: 100px auto 0;
-    height:auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-gap: 16px !important;
-    margin-left: 15px !important;
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
 
   @media only screen and (max-width: 900px) and (min-width: 550px) {
 
@@ -456,10 +440,9 @@ a.nav-link.active{
       margin-left: 2vw !important;
       overflow: hidden;
       }
-      .container {
+      .section-2 .container {
         width:96vw !important;
-        margin-right: 2vw !important;
-        margin-left: 2vw !important;
+        margin:auto !important;
         overflow: hidden;
         }
 
@@ -538,7 +521,7 @@ a.nav-link.active{
       margin: 130px auto 0;
       height:auto;
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
 
       margin-right: 8vw !important;
       margin-top: 30px;
@@ -660,6 +643,8 @@ a.nav-link.active{
     }
 
   }
+
+
 
   @media only screen and (max-width: 550px) {
 
@@ -799,9 +784,9 @@ a.nav-link.active{
       margin: 130px auto 0;
       height:auto;
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
 
-      margin-right: 8vw !important;
+
       margin-top: 30px;
       margin-bottom: 50px;
     }
@@ -1130,8 +1115,27 @@ a.nav-link.active{
       transition: 0.5s;
     }
 
+    .aboutcards .container{
+      margin: auto !important;
+    }
+
 
   }
+
+  .aboutcards .container{
+    position: relative;
+    width: 90%;
+    margin: 100px auto 0;
+    height:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 16px !important;
+    margin-left: 15px !important;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
 
   .aboutcards .container .card{
     width:240px;
@@ -1398,7 +1402,7 @@ a.nav-link.active{
 
   #gallery-section .mySlides{
 
-      background-image: url('../images/1234.jpg');
+      background-image: url('/images/1234.jpg');
       background-size: contain;
       background-repeat: repeat;
 
@@ -1654,9 +1658,7 @@ h1, h2, h3, h4, h5,
 
 .site-section {
   padding: 2.5em 0; }
-  @media (min-width: 768px) {
-    .site-section {
-      padding: 3em 0; } }
+
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -1665,9 +1667,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 0px;
   position: relative;
   font-size: 2.5rem; }
-  @media (min-width: 768px) {
-    .site-section-heading {
-      font-size: 3rem; } }
+
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
@@ -2046,7 +2046,7 @@ a.navbar-brand{
   margin-bottom: 1rem; }
 
 .counter .counter-text span {
-  font-size: 1rem;
+
   line-height: 1; }
 
   .image-absolute-box {
@@ -2962,3 +2962,14 @@ span.flaticon-award:before {
     margin :0;
     padding:1px;
   }
+
+  .aboutcards .container{
+    margin-left: 0px !important;
+    margin:auto !important;
+    margin-bottom: 40px !important;
+    padding-top: 25px !important;
+  }
+
+.evecontent h3{
+  font-size: 1.7rem !important;
+}
