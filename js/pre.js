@@ -84,7 +84,7 @@ const scene6 = new ScrollMagic.Scene({
 
 const scene7 = new ScrollMagic.Scene({
     trigger:"#gallery-section",
-    offset:4650,
+    offset:4600,
     duration:50,
     reverse:true,
     triggerHook:0.5,
